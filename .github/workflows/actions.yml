@@ -1,0 +1,11 @@
+name: shell command
+
+on: push
+
+jobs:
+  first-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Commands Echo
+        run: echo "Hello Master"
+  
